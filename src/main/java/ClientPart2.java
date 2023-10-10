@@ -25,24 +25,24 @@ public class ClientPart2 {
 
 
 //    /* Test for Java */
-//    System.out.println("Java with threadGroupSize = 10, numThreadGroups = 10, delaySeconds = 2, result:");
-//    threadGroupSize = 10;
-//    numThreadGroups = 10;
-//    delaySeconds = 2;
-//    RunningThreads.runThreads(baseUrl,fileJavaTask1,threadGroupSize,numThreadGroups,delaySeconds);
-//
-//    System.out.println("Java with threadGroupSize = 10, numThreadGroups = 20, delaySeconds = 2, result:");
-//    threadGroupSize = 10;
-//    numThreadGroups = 20;
-//    delaySeconds = 2;
-//    RunningThreads.runThreads(baseUrl,fileJavaTask2,threadGroupSize,numThreadGroups,delaySeconds);
-//
-//    System.out.println("Java with threadGroupSize = 10, numThreadGroups = 30, delaySeconds = 2, result:");
-//    threadGroupSize = 10;
-//    numThreadGroups = 30;
-//    delaySeconds = 2;
-//    RunningThreads.runThreads(baseUrl,fileJavaTask3,threadGroupSize,numThreadGroups,delaySeconds);
-//      RunningThreads.step6Calculation(fileJavaTask3,step6File);
+    System.out.println("Java with threadGroupSize = 10, numThreadGroups = 10, delaySeconds = 2, result:");
+    threadGroupSize = 10;
+    numThreadGroups = 10;
+    delaySeconds = 2;
+    RunningThreads.runThreads(baseUrl,fileJavaTask1,threadGroupSize,numThreadGroups,delaySeconds);
+
+    System.out.println("Java with threadGroupSize = 10, numThreadGroups = 20, delaySeconds = 2, result:");
+    threadGroupSize = 10;
+    numThreadGroups = 20;
+    delaySeconds = 2;
+    RunningThreads.runThreads(baseUrl,fileJavaTask2,threadGroupSize,numThreadGroups,delaySeconds);
+
+    System.out.println("Java with threadGroupSize = 10, numThreadGroups = 30, delaySeconds = 2, result:");
+    threadGroupSize = 10;
+    numThreadGroups = 30;
+    delaySeconds = 2;
+    RunningThreads.runThreads(baseUrl,fileJavaTask3,threadGroupSize,numThreadGroups,delaySeconds);
+      RunningThreads.step6Calculation(fileJavaTask3,step6File);
 
 //    /*Test for Go*/
 //    System.out.println("Go with threadGroupSize = 10, numThreadGroups = 10, delaySeconds = 2, result:");
@@ -83,21 +83,21 @@ public class ClientPart2 {
 //      RunningThreads.step6Calculation(fileJavaTask3,step6File);
 
     /*Test for Go, locally*/
-    System.out.println("Go with threadGroupSize = 10, numThreadGroups = 10, delaySeconds = 2, result:");
-    threadGroupSize = 10;
-    numThreadGroups = 10;
-    delaySeconds = 2;
-    RunningThreads.runThreads(localBaseUrlGo,fileGoTask1,threadGroupSize,numThreadGroups,delaySeconds);
-    System.out.println("Go with threadGroupSize = 10, numThreadGroups = 20, delaySeconds = 2, result:");
-    threadGroupSize = 10;
-    numThreadGroups = 20;
-    delaySeconds = 2;
-    RunningThreads.runThreads(localBaseUrlGo,fileGoTask2,threadGroupSize,numThreadGroups,delaySeconds);
-    System.out.println("Go with threadGroupSize = 10, numThreadGroups = 30, delaySeconds = 2, result:");
-    threadGroupSize = 10;
-    numThreadGroups = 30;
-    delaySeconds = 2;
-    RunningThreads.runThreads(localBaseUrlGo,fileGoTask3,threadGroupSize,numThreadGroups,delaySeconds);
+//    System.out.println("Go with threadGroupSize = 10, numThreadGroups = 10, delaySeconds = 2, result:");
+//    threadGroupSize = 10;
+//    numThreadGroups = 10;
+//    delaySeconds = 2;
+//    RunningThreads.runThreads(localBaseUrlGo,fileGoTask1,threadGroupSize,numThreadGroups,delaySeconds);
+//    System.out.println("Go with threadGroupSize = 10, numThreadGroups = 20, delaySeconds = 2, result:");
+//    threadGroupSize = 10;
+//    numThreadGroups = 20;
+//    delaySeconds = 2;
+//    RunningThreads.runThreads(localBaseUrlGo,fileGoTask2,threadGroupSize,numThreadGroups,delaySeconds);
+//    System.out.println("Go with threadGroupSize = 10, numThreadGroups = 30, delaySeconds = 2, result:");
+//    threadGroupSize = 10;
+//    numThreadGroups = 30;
+//    delaySeconds = 2;
+//    RunningThreads.runThreads(localBaseUrlGo,fileGoTask3,threadGroupSize,numThreadGroups,delaySeconds);
 //    RunningThreads.step6Calculation(fileGoTask3,step6File);
   }
 
